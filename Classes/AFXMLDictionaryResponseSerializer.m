@@ -21,7 +21,7 @@
         return nil;
     }
     
-    self.acceptableContentTypes = [NSSet setWithObjects:@"application/xml", @"text/xml", nil];
+    self.acceptableContentTypes = [NSSet setWithObjects:@"application/xml", @"text/xml", @"application/rss+xml", nil];
     
     return self;
 }
