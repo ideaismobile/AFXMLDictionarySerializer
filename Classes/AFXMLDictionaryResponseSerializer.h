@@ -8,6 +8,10 @@
 
 #import "AFURLResponseSerialization.h"
 
+@class XMLDictionarySettings;
+
 @interface AFXMLDictionaryResponseSerializer : AFHTTPResponseSerializer
+
+- (void)configParser:(XMLDictionarySettings *)settingsObject;
 
 @end
