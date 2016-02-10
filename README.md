@@ -4,7 +4,7 @@ Support for converting XML to NSDictionary in AFNetworking 2.0.
 
 ## Installation
 
-### Via Cocoapods:
+### Via CocoaPods:
 
 ```bash
 pod 'AFXMLDictionarySerializer'
